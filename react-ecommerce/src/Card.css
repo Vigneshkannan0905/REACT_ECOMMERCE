@@ -1,0 +1,72 @@
+.productCard{
+    border: 0.005em solid rgba(197, 184, 184, 0.466);
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+
+  .productImg{
+    max-width: 100%;
+  }
+
+  .productDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    border-top: 0.01em solid rgb(197, 184, 184);
+    gap: 0.3em;
+  }
+  
+  .categoryName{
+    color: rgb(169, 161, 161);
+    font-size: .8em;
+  }
+  
+  .productName > a{
+    font-size: 1.05em;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .productName > a{
+    text-decoration: none;
+  }
+  
+  .productName > a:hover{
+    color: blue;
+  }
+  
+  .productName > a:visited{
+    text-decoration: none;
+  }
+
+  .priceSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sellingPrice{
+    color: rgb(67, 206, 230);
+    font-size: 1.1em
+  }
+  
+  .actualPrice{
+    text-decoration-line: line-through;
+    color:rgb(169, 163, 163);
+    font-size: 0.8em;
+  }
+  
+  .atcbtn{
+    background-color: transparent;
+    padding: 0.5em;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bolder;
+  }
+  
+  .atcbtn:hover{
+    cursor: pointer;
+    color: rgb(244, 147, 163);
+  }

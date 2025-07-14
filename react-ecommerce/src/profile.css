@@ -1,0 +1,43 @@
+.profil-h1{
+    margin:1em 0 0 1em  ;
+}
+
+.profilePage{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.profilePage>*{
+    padding: 2em;
+}
+
+.personal-detail-section > *{
+    margin-bottom: 1em;
+}
+
+.personal-detail{
+    margin-left: 2em;
+}
+
+.logout-btn{
+    display: grid;
+    place-items: center;    
+}
+
+.logout-btn > button{
+    border: none;
+    background-color: white;
+    font-size: 1.2em;
+    padding: .4em;
+    font-weight: 400;
+    border-radius: 0.5em;
+}
+
+.logout-btn > button:hover{
+    /* background-image: linear-gradient(rgb(58, 177, 188),white); */
+    color:rgb(49, 174, 186);
+    font-weight: 500;
+    cursor: pointer;
+    /* scale: 1.02; */
+}

@@ -1,0 +1,142 @@
+.cart-background{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 49, 49, 0.37);   
+    position: fixed;
+    z-index: 1000;
+}
+
+.my-cart{
+    height: 100vh;
+    background-color: white;
+    width: 30%;
+    position: fixed;
+    right: 0;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow: auto;
+}
+
+.cart-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.cart-card{
+    border: 1px solid rgba(0, 0, 0, 0.365);
+    display: flex;
+    font-weight: 630;
+}
+
+.close-btn{
+    background-color: transparent;
+    font-size: 2em;
+    display: flex;
+    place-content: center center;
+    border: none;
+    cursor: pointer;
+}
+
+.my_cart{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.sec1,.sec2,.sec3{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1{
+    width: 50%;
+}
+
+.sec1>img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec2{
+    padding: 0.6em;
+    width: 100%;
+    display: flex;
+    gap:0.4em;
+}
+
+.cart-productName{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.cart-price-section{
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    justify-content: center;
+}
+
+.cart-sellingPrice{
+    color: rgb(67, 206, 230);
+    font-size: 1em
+  }
+  
+.cart-actualPrice{
+    font-size: 0.8em;
+    text-decoration-line: line-through;
+    color:rgb(169, 163, 163)
+}
+
+.cart-productCount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.cart-productCount > button {
+    cursor: pointer;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(84, 77, 77, 0.473);
+    width: 1em;
+    height: 1em;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.sec3{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.del-btn{
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    padding: 0.3em;
+    background-color: transparent;
+    color: red;
+}
+
+
+.checkout-btn{
+    background-color: blue;
+    color: white;
+    padding: 0.8em;
+    font-weight: 700;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+

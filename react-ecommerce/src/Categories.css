@@ -1,0 +1,12 @@
+.Categorycard{
+    min-width: max-content;
+    width: 15%;
+    background-color:  rgba(169, 163, 163, 0.139);
+    padding: 1em;
+}
+
+.link{
+    color: blue;
+    text-decoration: none;
+}
+  
