@@ -20,6 +20,7 @@ const Displayproducts = ({apiData,selectedOption,handleAddtoCart}) => {
     }
 
 
+
   return (
     <div className='products-display-section'>
         {

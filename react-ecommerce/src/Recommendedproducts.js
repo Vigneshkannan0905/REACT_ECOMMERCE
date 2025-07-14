@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
 import Displayproducts from './Displayproducts'
-import Card from './Card'
 
 
 const Recommendedproducts = ({apiData,Atc,setAtc,handleAddtoCart}) => {
